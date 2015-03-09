@@ -1,0 +1,213 @@
+@font-face {
+    font-family: lost;
+    src: url("./resources/PETRICIC.ttf");
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #000000;
+}
+.mainheader nav {
+    background: #000000;
+    border: transparent;
+}
+
+.mainheader nav ul {
+    list-style: none;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.mainheader nav ul li {
+    display: inline;
+}
+
+.mainheader nav a:link,
+.mainheader nav a:visited {
+  	color: #005CE6;
+    font-size: 2.5em;
+    font-family: lost;
+  	display: inline-block;
+  	height: 30px;
+  	padding: 5px 20px;
+  	text-decoration: none;
+    margin: 0 auto;
+}
+
+.mainheader nav a:hover,
+.mainheader nav a:focus {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+.mainheader img{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    display: block;
+}
+
+
+/*CSS for Apply page from here*/
+#mainSec{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-image: url("./resources/BckgReady.png");
+    background-position: center;
+}
+.label{
+  color: white;
+  display: list-item;
+  font-size: 2em;
+  text-align: center;
+  margin-top: 3%;
+}
+span{
+  color: red;
+}
+#radio-group {
+    position: relative;
+    text-align: center;
+    font-size: 1.7em;
+    color: white;
+    margin-top: 3%;
+}
+#submit-button{
+  margin-top: 10%;
+  margin-left: 50%;
+  margin-bottom: 5%;
+  font-size: 2em;
+  border: none;
+  height: 65px;
+  width: 250px;
+  margin-left: 45%;
+  padding: 5px 10px 10px 10px;
+  background: blue;
+  color: white;
+  border-radius: 40px;
+}
+#submit-button:active {
+  background: orange;
+  border: 0px solid white;
+  outline: 0;
+}
+.content{
+  font-family: Algerian;
+}
+div>input{
+  margin-left: 3%;
+  border-radius: 5px;
+  font-size: 0.8em;
+}
+  .content input:hover, .content textarea:hover {
+  border: 0px;
+}
+
+/*to here*/
+
+
+
+
+
+
+
+footer > #icons {
+    text-align: center;
+
+}
+footer > #icons > a {
+    display: inline-block;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+footer > #license {
+    text-align: center;
+    font-family: Arial;
+    font-size: 1.2em;
+    color: white;  
+}
+.softuni {
+    width: 40px;
+    height: 41px;
+    background-image: url("./resources/softuni.jpg"); 
+} 
+.softuni:hover { 
+    width: 40px;
+    height: 41px;
+    background-image: url("./resources/face1.jpg"); 
+}
+.facebook {
+    width: 40px;
+    height: 41px;
+    background-image: url("./resources/facebook.png"); 
+} 
+.facebook:hover { 
+    width: 40px;
+    height: 41px;
+    background-image: url("./resources/face5.jpg"); 
+}
+.twitter {
+    width: 40px;
+    height: 41px;
+    background-image: url("./resources/twitter.png"); 
+} 
+.twitter:hover { 
+    width: 40px;
+    height: 41px;
+    background-image: url("./resources/face4.jpg"); 
+}
+.google {
+    width: 40px;
+    height: 41px;
+    background-image: url("./resources/google.jpg"); 
+} 
+.google:hover { 
+    width: 40px;
+    height: 41px;
+    background-image: url("./resources/face2.jpg"); 
+}
+.youtube {
+    width: 40px;
+    height: 41px;
+    background-image: url("./resources/twitter.png"); 
+} 
+.youtube:hover { 
+    width: 40px;
+    height: 41px;
+    background-image: url("./resources/face3.jpg"); 
+}
+
+@media screen and (max-width: 800px) {
+
+    .mainheader nav {
+        font-size: 0.5rem;
+        background: #000000;
+    }
+
+    .mainheader nav ul {
+        padding-left: 0px;
+    }
+
+    .mainheader nav ul li {
+        display: block;
+        width: 100%;
+    }
+
+    .mainheader nav ul li a:link {
+        height: 25px;
+    }
+
+    .mainheader nav ul li a:hover {
+        background: none;
+    }
+}
+
+@media screen and (max-width: 540px){
+
+    .mainheader nav {
+        font-size: 0.550rem;
+        background: #000000;;
+    }
+}

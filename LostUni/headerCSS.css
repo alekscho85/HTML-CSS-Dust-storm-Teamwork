@@ -1,0 +1,82 @@
+@font-face {
+    font-family: lost;
+    src: url("./resources/PETRICIC.ttf");
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #000000;
+}
+.mainheader nav {
+    background: #000000;
+    border: transparent;
+}
+
+.mainheader nav ul {
+    list-style: none;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.mainheader nav ul li {
+    display: inline;
+}
+
+.mainheader nav a:link,
+.mainheader nav a:visited {
+	color: #005CE6;
+    font-size: 2.5em;
+    font-family: lost;
+	display: inline-block;
+	height: 30px;
+	padding: 5px 20px;
+	text-decoration: none;
+    margin: 0 auto;
+}
+
+.mainheader nav a:hover,
+.mainheader nav a:focus {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+.mainheader img{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    display: block;
+}
+@media screen and (max-width: 800px) {
+
+    .mainheader nav {
+        font-size: 0.5rem;
+        background: #000000;
+    }
+
+    .mainheader nav ul {
+        padding-left: 0px;
+    }
+
+    .mainheader nav ul li {
+        display: block;
+        width: 100%;
+    }
+
+    .mainheader nav ul li a:link {
+        height: 25px;
+    }
+
+    .mainheader nav ul li a:hover {
+        background: none;
+    }
+}
+
+@media screen and (max-width: 540px){
+
+    .mainheader nav {
+        font-size: 0.550rem;
+        background: #000000;;
+    }
+}

@@ -1,0 +1,188 @@
+@font-face {
+    font-family: lost;
+    src: url("./resources/PETRICIC.ttf");
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #000000;
+}
+.mainheader nav {
+    background: #000000;
+    border: transparent;
+}
+
+.mainheader nav ul {
+    list-style: none;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.mainheader nav ul li {
+    display: inline;
+}
+
+.mainheader nav a:link,
+.mainheader nav a:visited {
+    color: #005CE6;
+    font-size: 2.5em;
+    font-family: lost;
+    display: inline-block;
+    height: 30px;
+    padding: 5px 20px;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+.mainheader nav a:hover,
+.mainheader nav a:active {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+.mainheader img{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    display: block;
+}
+#mainSection{
+
+
+    background-image: url("./resources/BckgReady.png");
+    background-position: center;
+}
+h2 {
+    color: green;
+    text-align: center;
+    margin: 100px 0px ;
+}
+img {
+    border-radius: 20px;
+    width: 45%;
+    height: 45%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+article > p {
+    text-align: center;
+    font-family: lost;
+    color: white;
+    font-size: 1.3em;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+p span {
+   color: red;
+   text-decoration: underline;
+}
+
+
+
+
+
+
+
+footer > #icons {
+    text-align: center;
+    margin-top: 40px;
+
+}
+footer > #icons > a {
+    display: inline-block;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+footer > #license {
+    text-align: center;
+    font-family: Arial;
+    font-size: 1.2em;
+    color: white;  
+}
+.softuni {
+    width: 40px;
+    height: 41px;
+    background-image: url("./resources/softuni.jpg"); 
+} 
+.softuni:hover { 
+    width: 40px;
+    height: 41px;
+    background-image: url("./resources/face1.jpg"); 
+}
+.facebook {
+    width: 40px;
+    height: 41px;
+    background-image: url("./resources/facebook.png"); 
+} 
+.facebook:hover { 
+    width: 40px;
+    height: 41px;
+    background-image: url("./resources/face5.jpg"); 
+}
+.twitter {
+    width: 40px;
+    height: 41px;
+    background-image: url("./resources/twitter.png"); 
+} 
+.twitter:hover { 
+    width: 40px;
+    height: 41px;
+    background-image: url("./resources/face4.jpg"); 
+}
+.google {
+    width: 40px;
+    height: 41px;
+    background-image: url("./resources/google.jpg"); 
+} 
+.google:hover { 
+    width: 40px;
+    height: 41px;
+    background-image: url("./resources/face2.jpg"); 
+}
+.youtube {
+    width: 40px;
+    height: 41px;
+    background-image: url("./resources/twitter.png"); 
+} 
+.youtube:hover { 
+    width: 40px;
+    height: 41px;
+    background-image: url("./resources/face3.jpg"); 
+}
+@media screen and (max-width: 800px) {
+
+    .mainheader nav {
+        font-size: 0.5rem;
+        background: #000000;
+    }
+
+    .mainheader nav ul {
+        padding-left: 0px;
+    }
+
+    .mainheader nav ul li {
+        display: block;
+        width: 100%;
+    }
+
+    .mainheader nav ul li a:link {
+        height: 25px;
+    }
+
+    .mainheader nav ul li a:hover {
+        background: none;
+    }
+}
+
+@media screen and (max-width: 540px){
+
+    .mainheader nav {
+        font-size: 0.550rem;
+        background: #000000;;
+    }
+}

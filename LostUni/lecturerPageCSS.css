@@ -1,0 +1,235 @@
+@font-face {
+    font-family: lost;
+    src: url("./resources/PETRICIC.ttf");
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #000000;
+}
+.mainheader nav {
+    background: #000000;
+    border: transparent;
+}
+
+.mainheader nav ul {
+    list-style: none;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.mainheader nav ul li {
+    display: inline;
+}
+
+.mainheader nav a:link,
+.mainheader nav a:visited {
+	color: #005CE6;
+    font-size: 2.5em;
+    font-family: lost;
+	display: inline-block;
+	height: 30px;
+	padding: 5px 20px;
+	text-decoration: none;
+    margin: 0 auto;
+}
+
+.mainheader nav a:hover,
+.mainheader nav a:active {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+.mainheader img{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    display: block;
+}
+
+/*aboutUsCSS start from here*/
+#mainSection{
+
+
+    background-image: url("./resources/BckgReady.png");
+    background-position: center;
+}
+.button {
+    width: 100px;
+    height: 30px;
+    background-color: #d6d6d6;
+    font-weight: bold;
+    font-family: Algerian;
+    color: #0000ee;
+}
+.info {
+    color: #fcf9f2;
+    margin: 50px;
+    text-align: center;
+    font-family: lost;
+    font-size: 2em;
+}
+.info>.upLect, .info> .downLect{
+    vertical-align: top;
+    width: 45%;
+    display: inline-block;
+}
+
+.nakov>img,.nakov > article{
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+.nakov>img{
+    border-radius: 25px;
+}
+.nakov > article >p{
+    font-size: 0.6em;
+}
+.angel>img,.angel > article{
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+.angel>img{
+    border-radius: 25px;
+}
+.angel > article >p{
+    font-size: 0.6em;
+}
+
+
+.bogi>img,.bogi > article{
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+.bogi>img{
+    border-radius: 25px;
+}
+.bogi > article >p{
+    font-size: 0.6em;
+}
+
+.niki>img,.niki > article{
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+.niki>img{
+    border-radius: 25px;
+}
+.niki > article >p{
+    font-size: 0.6em;
+}
+
+.angel,.niki,.nakov,.bogi{
+    margin-top: 4%;
+}
+
+article > p{
+    color: #3C79BA;
+}
+footer > #icons {
+    text-align: center;
+
+}
+footer > #icons > a {
+    display: inline-block;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+footer > #license {
+    text-align: center;
+    font-family: Arial;
+    font-size: 1.2em;
+    color: white;  
+}
+.softuni {
+    width: 40px;
+    height: 41px;
+    background-image: url("./resources/softuni.jpg"); 
+} 
+.softuni:hover { 
+    width: 40px;
+    height: 41px;
+    background-image: url("./resources/face1.jpg"); 
+}
+.facebook {
+    width: 40px;
+    height: 41px;
+    background-image: url("./resources/facebook.png"); 
+} 
+.facebook:hover { 
+    width: 40px;
+    height: 41px;
+    background-image: url("./resources/face5.jpg"); 
+}
+.twitter {
+    width: 40px;
+    height: 41px;
+    background-image: url("./resources/twitter.png"); 
+} 
+.twitter:hover { 
+    width: 40px;
+    height: 41px;
+    background-image: url("./resources/face4.jpg"); 
+}
+.google {
+    width: 40px;
+    height: 41px;
+    background-image: url("./resources/google.jpg"); 
+} 
+.google:hover { 
+    width: 40px;
+    height: 41px;
+    background-image: url("./resources/face2.jpg"); 
+}
+.youtube {
+    width: 40px;
+    height: 41px;
+    background-image: url("./resources/twitter.png"); 
+} 
+.youtube:hover { 
+    width: 40px;
+    height: 41px;
+    background-image: url("./resources/face3.jpg"); 
+}
+
+@media screen and (max-width: 800px) {
+    .info>.upLect, .info> .downLect{
+        width: 85%;
+        display: block;
+    }
+    .mainheader nav {
+        font-size: 0.5rem;
+        background: #000000;
+    }
+
+    .mainheader nav ul {
+        padding-left: 0px;
+    }
+
+    .mainheader nav ul li {
+        display: block;
+        width: 100%;
+    }
+
+    .mainheader nav ul li a:link {
+        height: 25px;
+    }
+
+    .mainheader nav ul li a:hover {
+        background: none;
+    }
+}
+
+@media screen and (max-width: 540px){
+
+    .mainheader nav {
+        font-size: 0.550rem;
+        background: #000000;;
+    }
+}
